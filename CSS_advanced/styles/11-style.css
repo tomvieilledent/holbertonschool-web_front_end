@@ -29,8 +29,6 @@ html {
 
   --section-header-align: center;
   --section-tagline-transform: uppercase;
-  --section-tagline-margin: 0;
-  --section-title-margin: 0;
 }
 
 body {
@@ -75,12 +73,9 @@ h6 {
 
 .section-tagline {
   color: var(--color-primary);
+  font-family: var(--font-family-title);
   text-transform: var(--section-tagline-transform);
-  margin: var(--section-tagline-margin);
-}
-
-.section-title {
-  margin: var(--section-title-margin);
+  font-weight: var(--font-weight-bold);
 }
 
 .card-category {
